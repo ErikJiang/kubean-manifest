@@ -1,7 +1,9 @@
 apiVersion: "kubean.io/v1alpha1"
 kind: "Manifest"
 metadata:
-  name: "kubeaninfomanifest-2.21-d498df2"
+  name: "manifest-"
+  labels:
+    kubean.io/sprayRelease: "master"
 spec:
   kubesprayVersion: "d498df20db567d4a61402ab6243eb925b2a26032"
   kubeanVersion: ""
